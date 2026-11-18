@@ -83,8 +83,8 @@ def pic_lead(draw, x, y, s):
                  fill=(240, 214, 120))
     burst(draw, x + s * 0.62, y + s * 0.42, s * 0.30, (232, 90, 32))
     burst(draw, x + s * 0.62, y + s * 0.42, s * 0.17, (250, 200, 60))
-    for i, wy in enumerate((0.72, 0.82, 0.92)):
-        draw.arc([x + s * 0.05, y + s * wy, x + s * 0.95, y + s * (wy + 0.16)],
+    for i, wy in enumerate((0.66, 0.76, 0.86)):
+        draw.arc([x + s * 0.05, y + s * wy, x + s * 0.95, y + s * (wy + 0.12)],
                  0, 180, fill=WHITE, width=6)
 
 
